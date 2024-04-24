@@ -131,3 +131,8 @@ variable "ip_version" {
   description = "The IP Version that will be used by this address."
   default     = "IPV4"
 }
+
+variable "description" {
+  type        = string
+  description = "(Optional) An optional description of this resource"
+}
